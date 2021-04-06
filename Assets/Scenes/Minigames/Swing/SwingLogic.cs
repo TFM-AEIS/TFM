@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Balanceo : MonoBehaviour
+public class SwingLogic : MonoBehaviour
 {
     [SerializeField] private GameObject player;
 
