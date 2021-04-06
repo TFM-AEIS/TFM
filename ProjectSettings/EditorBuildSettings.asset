@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenu/StartMenu.unity
+    path: Assets/Scenes/1. StartMenu/Start Menu.unity
     guid: c26bb504207bbc0439c31ed353902fe0
+  - enabled: 1
+    path: Assets/Scenes/2. PvE Themes/Theme Selection.unity
+    guid: 5d7a6890d0d10460bac0d3d1d9962afa
+  - enabled: 1
+    path: Assets/Scenes/3. PvE Worlds/PvE Worlds.unity
+    guid: 22f3c399f06eacd4f9de2736a8203d63
   - enabled: 1
     path: Assets/Scenes/IAP/IAP.unity
     guid: 6cb3e513105da394f90b5cf124a5833f
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Swing/Swing.unity
+    guid: bceefe89135342143b680ef3d7d9298b
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Makeup/Makeup.unity
+    guid: a8c430d0d02d677459bd653f3f2184b1
   m_configObjects: {}
