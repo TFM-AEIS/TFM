@@ -6,6 +6,6 @@ public class IAPNavigation : MonoBehaviour
 
     public void back()
     {
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("Start Menu");
     }
 }
