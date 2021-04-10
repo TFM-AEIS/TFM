@@ -28,29 +28,23 @@ public class StartMenuNavigation : MonoBehaviour
 
     public void goToPvP()
     {
-        this.goFromTo(this.main, this.pvp);
+        this.main.SetActive(false);
+        this.pvp.SetActive(true);
     }
 
     public void goToClan()
     {
-        this.goFromTo(this.main, this.clan);
+        this.main.SetActive(false);
+        this.clan.SetActive(true);
     }
 
     public void goToSettings()
     {
-        this.goFromTo(this.main, this.settings);
+        this.settings.SetActive(true);
     }
 
     public void goToIAP()
     {
         SceneManager.LoadScene("IAP");
-    }
-
-    ////////
-
-    public void goFromTo(GameObject from, GameObject to)
-    {
-        from.SetActive(false);
-        to.SetActive(true);
     }
 }
