@@ -1,8 +1,8 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(DataResource))]
-public class DataResourceEditor : Editor
+[CustomEditor(typeof(DataWearable))]
+public class DataWearableEditor : Editor
 {
     private SerializedProperty displayName;
     private SerializedProperty image;
@@ -21,7 +21,7 @@ public class DataResourceEditor : Editor
         EditorGUILayout.Space(10);
         EditorGUILayout.PropertyField(image);
         EditorGUILayout.Space(10);
-        EditorGUILayout.LabelField(new GUIContent(((DataResource)target).Image), GUILayout.Height(250));
+        EditorGUILayout.LabelField(new GUIContent(((DataWearable)target).Image), GUILayout.Height(250));
 
         serializedObject.ApplyModifiedProperties(); // Write back changed values, mark as dirty and handle undo/redo
     }

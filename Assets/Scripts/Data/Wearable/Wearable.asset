@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b5ab58e7fec6a4cae53d133a94c45c, type: 3}
-  m_Name: Resource2
+  m_Script: {fileID: 11500000, guid: 40c0ed8a1679c4a4e916b616c915c6f4, type: 3}
+  m_Name: Wearable
   m_EditorClassIdentifier: 
-  displayName: Tela
-  image: {fileID: 2800000, guid: 85ac55597b97403c82fc6601a93cf241, type: 3}
+  displayName: 
+  image: {fileID: 2800000, guid: 3907e65bf5cb3f440852a9d3146f8195, type: 3}
