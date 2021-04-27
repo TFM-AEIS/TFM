@@ -1946,11 +1946,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 603674759}
+  - component: {fileID: 603674763}
   - component: {fileID: 603674762}
   - component: {fileID: 603674761}
   - component: {fileID: 603674760}
   m_Layer: 5
-  m_Name: Tela
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2060,6 +2061,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603674758}
   m_CullTransparentMesh: 1
+--- !u!114 &603674763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603674758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5d73616ed37de4eb039faa17684d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: f1a4aed344a7ebd44974322d27dcc16e, type: 2}
 --- !u!1 &629806957
 GameObject:
   m_ObjectHideFlags: 0
@@ -5641,7 +5655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tela
+  m_Text: 
 --- !u!222 &1967087847
 CanvasRenderer:
   m_ObjectHideFlags: 0

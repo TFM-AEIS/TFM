@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditorInternal; // Para usar ReorderableList
+using UnityEngine;
 
 [CustomEditor(typeof(DataRecipe))]
 public class DataRecipeEditor : Editor
@@ -48,15 +46,15 @@ public class DataRecipeEditor : Editor
 
         EditorGUI.PropertyField
         (
-            new Rect(rect.x, rect.y, 150, EditorGUIUtility.singleLineHeight), 
-            element.FindPropertyRelative("type"), 
+            new Rect(rect.x, rect.y, 150, EditorGUIUtility.singleLineHeight),
+            element.FindPropertyRelative("type"),
             GUIContent.none
         );
 
         EditorGUI.PropertyField
         (
-            new Rect(rect.x + 160, rect.y, 30, EditorGUIUtility.singleLineHeight), 
-            element.FindPropertyRelative("quantity"), 
+            new Rect(rect.x + 160, rect.y, 30, EditorGUIUtility.singleLineHeight),
+            element.FindPropertyRelative("quantity"),
             GUIContent.none
         );
     }

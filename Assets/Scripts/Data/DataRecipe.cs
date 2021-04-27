@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Recipe", menuName = "Data/Recipe")]
@@ -24,7 +23,7 @@ public class DataRecipe : ScriptableObject
 
     public Dictionary<DataResource, int> Requisites
     {
-        get 
+        get
         {
             Dictionary<DataResource, int> requisites = new Dictionary<DataResource, int>();
 
