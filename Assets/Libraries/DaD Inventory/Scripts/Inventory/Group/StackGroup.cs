@@ -115,9 +115,7 @@ public class StackGroup : MonoBehaviour
             StackGroupEventDescriptor desc = new StackGroupEventDescriptor();
             // Create item
             StackItem stackItem = Instantiate(stackItemPrefab);
-            Debug.Log(stackItem);
             stackItem.name = stackItemPrefab.name;
-            Debug.Log(stackItem.name);
             // Set stack amount
             stackAmount = Mathf.Min(stackAmount, stackItem.maxStack);
             stackItem.SetStack(stackAmount);
