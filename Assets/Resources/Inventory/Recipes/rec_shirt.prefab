@@ -433,6 +433,8 @@ GameObject:
   - component: {fileID: 3468186786013730072}
   - component: {fileID: 5892265948517850803}
   - component: {fileID: 7232721296094918068}
+  - component: {fileID: -6159585571389265291}
+  - component: {fileID: 6975740102058539392}
   m_Layer: 5
   m_Name: rec_shirt
   m_TagString: Untagged
@@ -563,6 +565,36 @@ MonoBehaviour:
   icon: {fileID: 0}
   color: {r: 1, g: 1, b: 1, a: 1}
   header: 'Receta: Camiseta'
-  info: Produce una camiseta
+  info: "2 Tela\n1 Algod\xF3n"
   spacingWidth: 10
   spacingHeight: 10
+--- !u!114 &-6159585571389265291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925287231006539563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75fee8f685aeb51489be655f8970bf18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 758802fcf3e87404e9cb0d1445505c3c, type: 3}
+--- !u!114 &6975740102058539392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925287231006539563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c00338cafdd8724ba248fc52611118c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemResult: Inventory/Wearables/wea_shirt
+  ingredient1Name: Inventory/Resources/res_cloth
+  ingredient1Count: 5
+  ingredient2Name: Inventory/Resources/res_cotton
+  ingredient2Count: 3
