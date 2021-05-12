@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/Circle/Circle.unity
     guid: 2fc9455c1d2a8294bbfab7d6a798eba2
+  - enabled: 1
+    path: Assets/Scenes/Minigames/WigTower/WigTower.unity
+    guid: 4810aea6427dfef43b6be7c3b978664a
   m_configObjects: {}

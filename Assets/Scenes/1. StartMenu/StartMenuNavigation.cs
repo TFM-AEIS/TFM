@@ -23,7 +23,7 @@ public class StartMenuNavigation : MonoBehaviour
 
     public void goToPvE()
     {
-        SceneManager.LoadScene("Theme Selection");
+        SceneManager.LoadScene("WigTower");
     }
 
     public void goToPvP()
