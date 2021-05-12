@@ -45,6 +45,6 @@ public class StartMenuNavigation : MonoBehaviour
 
     public void goToIAP()
     {
-        SceneManager.LoadScene("IAP");
+        SceneManager.LoadScene("IAP", LoadSceneMode.Additive);
     }
 }

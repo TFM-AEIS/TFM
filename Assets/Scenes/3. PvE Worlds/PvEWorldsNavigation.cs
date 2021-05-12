@@ -7,10 +7,10 @@ public class PvEWorldsNavigation : MonoBehaviour
 
     void Awake()
     {
-        this.loadWorld(PvEWorldSelection.currentWorld);
+        this.LoadWorld(PvEWorldSelection.currentWorld);
     }
 
-    private void loadWorld(int index)
+    private void LoadWorld(int index)
     {
         for (int i = 0; i < this.worlds.Length; i++)
         {
@@ -21,7 +21,7 @@ public class PvEWorldsNavigation : MonoBehaviour
         this.worlds[index].SetActive(true);
     }
 
-    public void back()
+    public void Back()
     {
         SceneManager.LoadScene("Theme Selection");
     }
