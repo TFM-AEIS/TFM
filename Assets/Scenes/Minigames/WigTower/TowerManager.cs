@@ -101,6 +101,7 @@ public class TowerManager : MonoBehaviour
     public void RetryLast()
     {
         this.Score--;
+        this.feedbackText.text = "";
         GameObject.Destroy(this.currBlock.gameObject);
         this.currBlock = this.tower.Pop();
         this.currSpeed = this.currBlock.BlockSpeed;
